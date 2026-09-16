@@ -12,6 +12,7 @@
 | Surface | URL |
 |---|---|
 | GitHub Pages (web app) | https://belentani7.github.io/belent-cad/ |
+| Cloudflare Pages (web app) | https://belent-cad.pages.dev/ |
 | Repository | https://github.com/belentani7/belent-cad |
 
 ## O que é
