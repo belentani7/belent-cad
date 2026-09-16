@@ -1,0 +1,6 @@
+{
+  "name": "BELENT CAD",
+  "description": "Herramienta CAD de código abierto para arquitectos: digitalización de bocetos en papel a modelos 3D interactivos, renders fotorrealistas y banco de estándares en español y portugués.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

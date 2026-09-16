@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  code, kbd, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Pristine Architectural Glassmorphism */
+.glass-panel {
+  background: rgba(20, 10, 12, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-panel-accent {
+  background: rgba(239, 68, 68, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  box-shadow: 0 4px 24px -2px rgba(239, 68, 68, 0.25);
+}
+
+/* Blueprint CAD Grid Background - Architectural Crimson Red Theme */
+.cad-grid-bg {
+  background-color: #0d0709;
+  background-image: 
+    linear-gradient(rgba(239, 68, 68, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(239, 68, 68, 0.07) 1px, transparent 1px),
+    linear-gradient(rgba(239, 68, 68, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(239, 68, 68, 0.2) 1px, transparent 1px);
+  background-size: 20px 20px, 20px 20px, 100px 100px, 100px 100px;
+}
+
+.paper-sketch-bg {
+  background-color: #fdfbf7;
+  background-image: radial-gradient(#d6cebe 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
