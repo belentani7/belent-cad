@@ -1,0 +1,123 @@
+{
+  "materials": [
+    {
+      "id": "parquet-oak",
+      "pt": "Parquet de carvalho",
+      "es": "Parquet de roble",
+      "en": "Oak parquet",
+      "category": "floor",
+      "thermal_u": 0.15,
+      "notes": "PT: rusticidade natural. ES: barniz mate. EN: matte finish."
+    },
+    {
+      "id": "concrete-polished",
+      "pt": "Betão polido",
+      "es": "Hormigón pulido",
+      "en": "Polished concrete",
+      "category": "floor",
+      "thermal_u": 1.4,
+      "notes": "Elevada inércia térmica / alta inercia térmica / high thermal mass."
+    },
+    {
+      "id": "terrazzo",
+      "pt": "Terrazzo",
+      "es": "Terrazo",
+      "en": "Terrazzo",
+      "category": "floor",
+      "thermal_u": 1.2,
+      "notes": "PT/ES/EN: agregados decorativos selados."
+    },
+    {
+      "id": "brick-ceramic",
+      "pt": "Alvenaria cerâmica",
+      "es": "Fábrica cerámica",
+      "en": "Ceramic brick",
+      "category": "wall",
+      "thermal_u": 0.55,
+      "notes": "Parede dupla com isolamento / doble hoja aislada / cavity insulation."
+    },
+    {
+      "id": "white-stucco",
+      "pt": "Estuque branco",
+      "es": "Estuco blanco",
+      "en": "White stucco",
+      "category": "wall",
+      "thermal_u": 0.35,
+      "notes": "Elevada reflexão solar / alta reflexión / high solar reflectance."
+    },
+    {
+      "id": "glass-lowE",
+      "pt": "Vidro duplo low-E",
+      "es": "Vidrio doble low-E",
+      "en": "Double low-E glazing",
+      "category": "glazing",
+      "thermal_u": 1.4,
+      "notes": "Fator solar ~0.35 / factor solar / solar factor."
+    }
+  ],
+  "standards": [
+    {
+      "code": "CTE DB-HS 3",
+      "pt": "Ventilação e qualidade do ar interior",
+      "es": "Ventilación y calidad del aire interior",
+      "en": "Ventilation and indoor air quality",
+      "domain": "ES",
+      "rule": "Área de aberturas de ventilação >= 1/20 da área útil da estância."
+    },
+    {
+      "code": "CTE DB-SUA 1",
+      "pt": "Segurança de utilização e acessibilidade",
+      "es": "Seguridad de utilización y accesibilidad",
+      "en": "Safety of use and accessibility",
+      "domain": "ES",
+      "rule": "Largura livre de porta de passagem >= 0.80 m."
+    },
+    {
+      "code": "NBR 6492",
+      "pt": "Representação de projetos de arquitetura",
+      "es": "Representación de proyectos de arquitectura",
+      "en": "Representation of architectural projects",
+      "domain": "BR",
+      "rule": "Escalas, cotas e carimbo conforme NBR 6492."
+    },
+    {
+      "code": "NBR 9050",
+      "pt": "Acessibilidade a edificações",
+      "es": "Accesibilidad a edificaciones",
+      "en": "Accessibility to buildings",
+      "domain": "BR",
+      "rule": "Portas acessíveis >= 0.80 m de vão livre."
+    },
+    {
+      "code": "NBR 15575",
+      "pt": "Desempenho de edificações habitacionais",
+      "es": "Desempeño de edificaciones residenciales",
+      "en": "Residential building performance",
+      "domain": "BR",
+      "rule": "Iluminação natural: janela >= 1/8 da área do piso."
+    },
+    {
+      "code": "ISO 5457",
+      "pt": "Formatos e apresentação de folhas de desenho",
+      "es": "Formatos y presentación de hoja de dibujo",
+      "en": "Drawing sheet formats and presentation",
+      "domain": "INTL",
+      "rule": "Formatos A0–A4, margens e bloco de título."
+    }
+  ],
+  "blocks": [
+    { "id": "bed-king", "pt": "Cama king", "es": "Cama king", "en": "King bed", "width": 2.0, "height": 2.1, "layer": "A-MOBI" },
+    { "id": "sofa-3", "pt": "Sofá 3 lugares", "es": "Sofá 3 plazas", "en": "3-seat sofa", "width": 2.2, "height": 0.9, "layer": "A-MOBI" },
+    { "id": "dining-table", "pt": "Mesa de jantar", "es": "Mesa comedor", "en": "Dining table", "width": 1.6, "height": 0.9, "layer": "A-MOBI" },
+    { "id": "kitchen-counter", "pt": "Bancada de cozinha", "es": "Encimera de cocina", "en": "Kitchen counter", "width": 2.4, "height": 0.6, "layer": "A-MOBI" },
+    { "id": "toilet", "pt": "Sanita", "es": "Inodoro", "en": "Toilet", "width": 0.4, "height": 0.7, "layer": "A-MOBI" },
+    { "id": "car", "pt": "Automóvel", "es": "Automóvil", "en": "Car", "width": 2.7, "height": 5.0, "layer": "A-MOBI" }
+  ],
+  "render_styles": [
+    { "id": "golden-hour", "pt": "Hora dourada", "es": "Hora dorada", "en": "Golden hour", "sun_elevation": 12, "sky_kelvin": 3200 },
+    { "id": "noon-sun", "pt": "Sol a pino", "es": "Sol de mediodía", "en": "Noon sun", "sun_elevation": 75, "sky_kelvin": 5600 },
+    { "id": "overcast", "pt": "Céu encoberto", "es": "Cielo cubierto", "en": "Overcast", "sun_elevation": 45, "sky_kelvin": 6800 },
+    { "id": "blue-hour", "pt": "Hora azul", "es": "Hora azul", "en": "Blue hour", "sun_elevation": -4, "sky_kelvin": 9000 },
+    { "id": "interior-warm", "pt": "Interior quente", "es": "Interior cálido", "en": "Warm interior", "sun_elevation": 30, "sky_kelvin": 2800 }
+  ]
+}

@@ -6,3 +6,13 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+python/belent_bank/belent_cad.db
+python/belent_bank/bank.json
+
+# Editors / OS
+.vscode/
+.idea/
