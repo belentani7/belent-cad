@@ -16,3 +16,6 @@ python/belent_bank/bank.json
 # Editors / OS
 .vscode/
 .idea/
+
+.vercel
+.env*
