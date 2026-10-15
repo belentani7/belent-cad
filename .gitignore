@@ -1,21 +1,38 @@
+# Dependencies
 node_modules/
+bower_components/
+
+# Production
 build/
 dist/
-coverage/
-.DS_Store
-*.log
-.env*
-!.env.example
 
-# Python
-__pycache__/
-*.py[cod]
-python/belent_bank/belent_cad.db
-python/belent_bank/bank.json
+docs/
 
-# Editors / OS
-.vscode/
+# Misc
+.env
+.env.local
+.env.*.local
+
+# IDE
 .idea/
+.vscode/
+*.swp
 
-.vercel
-.env*
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Tests
+.cypress/
+
+# Cache
+.cache/
